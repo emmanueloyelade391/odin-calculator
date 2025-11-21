@@ -46,9 +46,10 @@ function operate(x, y, operator) {
 
 console.log(operate(5, 4, "/"));
 
-/*
-console.log(`Addition: ${add(5, 9)}`);
-console.log(`Subtraction: ${subtract(5, 9)}`);
-console.log(`Multiplication: ${multiply(5, 9)}`);
-console.log(`Division:" ${divide(20, 5)}`);
-*/
+// const display = document.querySelector("#display");
+// const oneBtn = document.querySelector("#one-btn");
+
+// oneBtn.addEventListener("click", (event) => {
+//   display.textContent = "1";
+//   console.log("You clicked 1!")
+// })
