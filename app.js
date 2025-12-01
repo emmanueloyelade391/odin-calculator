@@ -46,10 +46,9 @@ function operate(x, y, operator) {
 
 console.log(operate(5, 4, "/"));
 
-// const display = document.querySelector("#display");
-// const oneBtn = document.querySelector("#one-btn");
-
-// oneBtn.addEventListener("click", (event) => {
-//   display.textContent = "1";
-//   console.log("You clicked 1!")
-// })
+const display = document.querySelector("#display");
+let displayString = "";
+const oneBtn = document.querySelector("#one-btn");
+oneBtn.addEventListener("click", (event) => {
+  display.textContent = display.textContent + "1";
+});
