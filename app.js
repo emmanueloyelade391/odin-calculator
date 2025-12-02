@@ -98,3 +98,33 @@ const zeroBtn = document.querySelector("#zero-btn");
 zeroBtn.addEventListener("click", (event) => {
   display.textContent = display.textContent + "0";
 });
+
+const addBtn = document.querySelector("#add-btn");
+addBtn.addEventListener("click", (event) => {
+  display.textContent = display.textContent + "+";
+});
+
+const subtractBtn = document.querySelector("#subtract-btn");
+subtractBtn.addEventListener("click", (event) => {
+  display.textContent = display.textContent + "-";
+});
+
+const multiplyBtn = document.querySelector("#multiply-btn");
+multiplyBtn.addEventListener("click", (event) => {
+  display.textContent = display.textContent + "*";
+});
+
+const divideBtn = document.querySelector("#divide-btn");
+divideBtn.addEventListener("click", (event) => {
+  display.textContent = display.textContent + "/";
+});
+
+const equalBtn = document.querySelector("#equal-btn");
+equalBtn.addEventListener("click", (event) => {
+  display.textContent = display.textContent + "=";
+});
+
+const clearBtn = document.querySelector("#clear-btn");
+clearBtn.addEventListener("click", (event) => {
+  display.textContent = "";
+});
