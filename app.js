@@ -44,7 +44,26 @@ function operate(x, y, operator) {
   }
 }
 
-console.log(operate(5, 4, "/"));
+function operatebtn() {
+  let x = "";
+    let y = "";
+    let operator = "";
+
+    //Operate part
+    let displayLength = displayString.length;
+    for (let i = 0; i < displayLength; i++) {
+      if (displayString[i] === "+" || 
+          displayString[i] === "-" || 
+          displayString[i] === "*" || 
+          displayString[i] === "/") {
+            operator = displayString[i];
+            y = displayString.slice(i + 1);
+            break
+      }
+      x += displayString[i];
+    }
+    return display.textContent = operate((+x), (+y), operator);
+} 
 
 const display = document.querySelector("#display");
 let displayString = display.textContent;
@@ -152,26 +171,30 @@ function calcButtons() {
 
   const equalBtn = document.querySelector("#equal-btn");
   equalBtn.addEventListener("click", (event) => {
-    let x = "";
-    let y = "";
-    let operator = "";
+    // let x = "";
+    // let y = "";
+    // let operator = "";
 
-    //Operate part
-    let displayLength = displayString.length;
-    for (let i = 0; i < displayLength; i++) {
-      if (displayString[i] === "+" || 
-          displayString[i] === "-" || 
-          displayString[i] === "*" || 
-          displayString[i] === "/") {
-            operator = displayString[i];
-            y = displayString.slice(i + 1);
-            break
-      }
-      x += displayString[i];
-    }
-    display.textContent = operate((+x), (+y), operator);
-    console.log(display.textContent = operate((+x), (+y), operator));
+    // //Operate part
+    // let displayLength = displayString.length;
+    // for (let i = 0; i < displayLength; i++) {
+    //   if (displayString[i] === "+" || 
+    //       displayString[i] === "-" || 
+    //       displayString[i] === "*" || 
+    //       displayString[i] === "/") {
+    //         operator = displayString[i];
+    //         y = displayString.slice(i + 1);
+    //         break
+    //   }
+    //   x += displayString[i];
+    // }
+    // display.textContent = operate((+x), (+y), operator);
+    // console.log(display.textContent = operate((+x), (+y), operator));
+
+    operatebtn();
   });
+
+  
 
   const clearBtn = document.querySelector("#clear-btn");
   clearBtn.addEventListener("click", (event) => {
