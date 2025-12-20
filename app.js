@@ -143,30 +143,58 @@ function calcButtons() {
 
   const addBtn = document.querySelector("#add-btn");
   addBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "+";
-    displayString = display.textContent;
-    console.log(displayString);
+    if (displayString.includes("+")||
+        displayString.includes("-")||
+        displayString.includes("*")||
+        displayString.includes("/")) {
+      display.textContent = display.textContent + "";
+    } else {
+      display.textContent = display.textContent + "+";
+      displayString = display.textContent;
+      console.log(displayString);
+    }
   });
 
   const subtractBtn = document.querySelector("#subtract-btn");
   subtractBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "-";
-    displayString = display.textContent;
-    console.log(displayString);
+    if (displayString.includes("+")||
+        displayString.includes("-")||
+        displayString.includes("*")||
+        displayString.includes("/")) {
+      display.textContent = display.textContent + "";
+    } else {
+      display.textContent = display.textContent + "-";
+      displayString = display.textContent;
+      console.log(displayString);
+    }
   });
 
   const multiplyBtn = document.querySelector("#multiply-btn");
   multiplyBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "*";
-    displayString = display.textContent;
-    console.log(displayString);
+    if (displayString.includes("+")||
+        displayString.includes("-")||
+        displayString.includes("*")||
+        displayString.includes("/")) {
+      display.textContent = display.textContent + "";
+    } else {
+      display.textContent = display.textContent + "*";
+      displayString = display.textContent;
+      console.log(displayString);
+    }
   });
 
   const divideBtn = document.querySelector("#divide-btn");
   divideBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "/";
-    displayString = display.textContent;
-    console.log(displayString);
+    if (displayString.includes("+")||
+        displayString.includes("-")||
+        displayString.includes("*")||
+        displayString.includes("/")) {
+      display.textContent = display.textContent + "";
+    } else {
+      display.textContent = display.textContent + "/";
+      displayString = display.textContent;
+      console.log(displayString);
+    }
   });
 
   const equalBtn = document.querySelector("#equal-btn");
