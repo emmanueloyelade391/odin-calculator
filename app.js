@@ -62,7 +62,8 @@ function operatebtn() {
       }
       x += displayString[i];
     }
-    return display.textContent = operate((+x), (+y), operator);
+    display.textContent = operate((+x), (+y), operator);
+    displayString = display.textContent;
 } 
 
 const display = document.querySelector("#display");
