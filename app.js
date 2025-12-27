@@ -1,28 +1,16 @@
 function add(x, y) {
-  const first = x;
-  const second = y;
-  const operation = "+";
   return Math.round(x + y);
 }
 
 function subtract(x, y) {
-  const first = x;
-  const second = y;
-  const operation = "-";
   return Math.round(x - y);
 }
 
 function multiply(x, y) {
-  const first = x;
-  const second = y;
-  const operation = "*";
   return Math.round(x * y);
 }
 
 function divide(x, y) {
-  const first = x;
-  const second = y;
-  const operation = "/";
   return Math.round(x / y);
 }
 
@@ -65,6 +53,10 @@ function operatebtn() {
     display.textContent = operate((+x), (+y), operator);
     displayString = display.textContent;
 } 
+
+let firstNum = "";
+let secondNum = "";
+let operator = "";
 
 const display = document.querySelector("#display");
 let displayString = display.textContent;
