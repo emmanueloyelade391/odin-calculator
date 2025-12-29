@@ -82,17 +82,20 @@ function calcButtons() {
     // console.log(displayString);
 
     if (operator.length === 0) {
+      resultNum = "";
       firstNum += "1";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       secondNum += "1";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum); 
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   });
 
@@ -103,17 +106,20 @@ function calcButtons() {
     // console.log(displayString);
 
     if (operator.length === 0) {
+      resultNum = "";
       firstNum += "2";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       secondNum += "2";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   });
 
@@ -124,17 +130,20 @@ function calcButtons() {
     // console.log(displayString);
 
     if (operator.length === 0) {
+      resultNum = "";
       firstNum += "3";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       secondNum += "3";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   });
 
@@ -145,17 +154,20 @@ function calcButtons() {
     // console.log(displayString);
 
     if (operator.length === 0) {
+      resultNum = "";
       firstNum += "4";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       secondNum += "4";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   });
 
@@ -166,17 +178,20 @@ function calcButtons() {
     // console.log(displayString);
 
     if (operator.length === 0) {
+      resultNum = "";
       firstNum += "5";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       secondNum += "5";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   });
 
@@ -187,17 +202,20 @@ function calcButtons() {
     // console.log(displayString);
 
     if (operator.length === 0) {
+      resultNum = "";
       firstNum += "6";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       secondNum += "6";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   });
 
@@ -208,17 +226,20 @@ function calcButtons() {
     // console.log(displayString);
 
     if (operator.length === 0) {
+      resultNum = "";
       firstNum += "7";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       secondNum += "7";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   });
 
@@ -229,17 +250,20 @@ function calcButtons() {
     // console.log(displayString);
 
     if (operator.length === 0) {
+      resultNum = "";
       firstNum += "8";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       secondNum += "8";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   });
 
@@ -250,17 +274,20 @@ function calcButtons() {
     // console.log(displayString);
 
     if (operator.length === 0) {
+      resultNum = "";
       firstNum += "9";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       secondNum += "9";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   });
 
@@ -271,22 +298,33 @@ function calcButtons() {
     // console.log(displayString);
 
     if (operator.length === 0) {
+      resultNum = "";
       firstNum += "0";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       secondNum += "0";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   });
 
   const addBtn = document.querySelector("#add-btn");
   addBtn.addEventListener("click", (event) => {
+    if (resultNum.length > 0) {
+      firstNum = resultNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
+    }
+
     if (secondNum.length > 0) {
       firstNum = operate((+firstNum), (+secondNum), operator);
       display.textContent = firstNum;
@@ -295,16 +333,26 @@ function calcButtons() {
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       operator = "+";
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   }) 
 
   const subtractBtn = document.querySelector("#subtract-btn");
   subtractBtn.addEventListener("click", (event) => {
+    if (resultNum.length > 0) {
+      firstNum = resultNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
+    }
+
     if (secondNum.length > 0) {
       firstNum = operate((+firstNum), (+secondNum), operator);
       display.textContent = firstNum;
@@ -313,16 +361,26 @@ function calcButtons() {
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       operator = "-";
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   })
 
   const multiplyBtn = document.querySelector("#multiply-btn");
   multiplyBtn.addEventListener("click", (event) => {
+    if (resultNum.length > 0) {
+      firstNum = resultNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
+    }
+
     if (secondNum.length > 0) {
       firstNum = operate((+firstNum), (+secondNum), operator);
       display.textContent = firstNum;
@@ -331,16 +389,26 @@ function calcButtons() {
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       operator = "*";
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   })
 
   const divideBtn = document.querySelector("#divide-btn");
   divideBtn.addEventListener("click", (event) => {
+    if (resultNum.length > 0) {
+      firstNum = resultNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
+    }
+
     if (secondNum.length > 0) {
       firstNum = operate((+firstNum), (+secondNum), operator);
       display.textContent = firstNum;
@@ -349,24 +417,28 @@ function calcButtons() {
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     } else {
       operator = "/";
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
     }
   })
 
   const equalBtn = document.querySelector("#equal-btn");
   equalBtn.addEventListener("click", (event) => {
-    firstNum = operate((+firstNum), (+secondNum), operator);
-    display.textContent = firstNum;
+    resultNum = "";
+    resultNum += operate((+firstNum), (+secondNum), operator);
+    display.textContent = resultNum;
     firstNum = "";
     secondNum = "";
     operator = "";
     console.log("firstNum: " + firstNum);
     console.log("secondNum: " + secondNum);
     console.log("operator: " + operator);
+    console.log("resultNum: " + resultNum);
   })
 
   // const addBtn = document.querySelector("#add-btn");
@@ -482,10 +554,12 @@ function calcButtons() {
     display.textContent = "";
     firstNum = "";
     secondNum = "";
+    resultNum = "";
     operator = "";
     console.log("firstNum: " + firstNum);
     console.log("secondNum: " + secondNum);
     console.log("operator: " + operator);
+    console.log("resultNum: " + resultNum);
   });
 }
 
