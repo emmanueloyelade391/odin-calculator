@@ -76,75 +76,297 @@ let displayString = display.textContent;
 function calcButtons() {
   const oneBtn = document.querySelector("#one-btn");
   oneBtn.addEventListener("click", (event) => {
-    
+    // display.textContent = display.textContent + "1";
+    // displayString = display.textContent;
+    // console.log(displayString);
 
-    display.textContent = display.textContent + "1";
-    displayString = display.textContent;
-    console.log(displayString);
+    if (operator.length === 0) {
+      firstNum += "1";
+      display.textContent = firstNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      secondNum += "1";
+      display.textContent = secondNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum); 
+      console.log("operator: " + operator);
+    }
   });
 
   const twoBtn = document.querySelector("#two-btn");
   twoBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "2";
-    displayString = display.textContent;
-    console.log(displayString);
+    // display.textContent = display.textContent + "2";
+    // displayString = display.textContent;
+    // console.log(displayString);
+
+    if (operator.length === 0) {
+      firstNum += "2";
+      display.textContent = firstNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      secondNum += "2";
+      display.textContent = secondNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
   });
 
   const threeBtn = document.querySelector("#three-btn");
   threeBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "3";
-    displayString = display.textContent;
-    console.log(displayString);
+    // display.textContent = display.textContent + "3";
+    // displayString = display.textContent;
+    // console.log(displayString);
+
+    if (operator.length === 0) {
+      firstNum += "3";
+      display.textContent = firstNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      secondNum += "3";
+      display.textContent = secondNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
   });
 
   const fourBtn = document.querySelector("#four-btn");
   fourBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "4";
-    displayString = display.textContent;
-    console.log(displayString);
+    // display.textContent = display.textContent + "4";
+    // displayString = display.textContent;
+    // console.log(displayString);
+
+    if (operator.length === 0) {
+      firstNum += "4";
+      display.textContent = firstNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      secondNum += "4";
+      display.textContent = secondNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
   });
 
   const fiveBtn = document.querySelector("#five-btn");
   fiveBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "5"
-    displayString = display.textContent;
-    console.log(displayString);
+    // display.textContent = display.textContent + "5"
+    // displayString = display.textContent;
+    // console.log(displayString);
+
+    if (operator.length === 0) {
+      firstNum += "5";
+      display.textContent = firstNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      secondNum += "5";
+      display.textContent = secondNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
   });
 
   const sixBtn = document.querySelector("#six-btn");
   sixBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "6";
-    displayString = display.textContent;
-    console.log(displayString);
+    // display.textContent = display.textContent + "6";
+    // displayString = display.textContent;
+    // console.log(displayString);
+
+    if (operator.length === 0) {
+      firstNum += "6";
+      display.textContent = firstNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      secondNum += "6";
+      display.textContent = secondNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
   });
 
   const sevenBtn = document.querySelector("#seven-btn");
   sevenBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "7";
-    displayString = display.textContent;  
-    console.log(displayString);
+    // display.textContent = display.textContent + "7";
+    // displayString = display.textContent;  
+    // console.log(displayString);
+
+    if (operator.length === 0) {
+      firstNum += "7";
+      display.textContent = firstNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      secondNum += "7";
+      display.textContent = secondNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
   });
 
   const eightBtn = document.querySelector("#eight-btn");
   eightBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "8";
-    displayString = display.textContent;
-    console.log(displayString);
+    // display.textContent = display.textContent + "8";
+    // displayString = display.textContent;
+    // console.log(displayString);
+
+    if (operator.length === 0) {
+      firstNum += "8";
+      display.textContent = firstNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      secondNum += "8";
+      display.textContent = secondNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
   });
 
   const nineBtn = document.querySelector("#nine-btn");
   nineBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "9";
-    displayString = display.textContent;
-    console.log(displayString);
+    // display.textContent = display.textContent + "9";
+    // displayString = display.textContent;
+    // console.log(displayString);
+
+    if (operator.length === 0) {
+      firstNum += "9";
+      display.textContent = firstNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      secondNum += "9";
+      display.textContent = secondNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
   });
 
   const zeroBtn = document.querySelector("#zero-btn");
   zeroBtn.addEventListener("click", (event) => {
-    display.textContent = display.textContent + "0";
-    displayString = display.textContent;
-    console.log(displayString);
+    // display.textContent = display.textContent + "0";
+    // displayString = display.textContent;
+    // console.log(displayString);
+
+    if (operator.length === 0) {
+      firstNum += "0";
+      display.textContent = firstNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      secondNum += "0";
+      display.textContent = secondNum;
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
   });
+
+  const addBtn = document.querySelector("#add-btn");
+  addBtn.addEventListener("click", (event) => {
+    if (secondNum.length > 0) {
+      firstNum = operate((+firstNum), (+secondNum), operator);
+      display.textContent = firstNum;
+      secondNum = "";
+      operator = "+";
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      operator = "+";
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
+  }) 
+
+  const subtractBtn = document.querySelector("#subtract-btn");
+  subtractBtn.addEventListener("click", (event) => {
+    if (secondNum.length > 0) {
+      firstNum = operate((+firstNum), (+secondNum), operator);
+      display.textContent = firstNum;
+      secondNum = "";
+      operator = "-";
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      operator = "-";
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
+  })
+
+  const multiplyBtn = document.querySelector("#multiply-btn");
+  multiplyBtn.addEventListener("click", (event) => {
+    if (secondNum.length > 0) {
+      firstNum = operate((+firstNum), (+secondNum), operator);
+      display.textContent = firstNum;
+      secondNum = "";
+      operator = "*";
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      operator = "*";
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
+  })
+
+  const divideBtn = document.querySelector("#divide-btn");
+  divideBtn.addEventListener("click", (event) => {
+    if (secondNum.length > 0) {
+      firstNum = operate((+firstNum), (+secondNum), operator);
+      display.textContent = firstNum;
+      secondNum = "";
+      operator = "/";
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    } else {
+      operator = "/";
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+    }
+  })
+
+  const equalBtn = document.querySelector("#equal-btn");
+  equalBtn.addEventListener("click", (event) => {
+    firstNum = operate((+firstNum), (+secondNum), operator);
+    display.textContent = firstNum;
+    firstNum = "";
+    secondNum = "";
+    operator = "";
+    console.log("firstNum: " + firstNum);
+    console.log("secondNum: " + secondNum);
+    console.log("operator: " + operator);
+  })
 
   // const addBtn = document.querySelector("#add-btn");
   // addBtn.addEventListener("click", (event) => {
@@ -252,9 +474,17 @@ function calcButtons() {
 
   const clearBtn = document.querySelector("#clear-btn");
   clearBtn.addEventListener("click", (event) => {
+    // display.textContent = "";
+    // displayString = display.textContent;
+    // console.log(displayString);
+
     display.textContent = "";
-    displayString = display.textContent;
-    console.log(displayString);
+    firstNum = "";
+    secondNum = "";
+    operator = "";
+    console.log("firstNum: " + firstNum);
+    console.log("secondNum: " + secondNum);
+    console.log("operator: " + operator);
   });
 }
 
