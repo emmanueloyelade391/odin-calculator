@@ -54,6 +54,18 @@ function divide(x, y) {
 //     displayString = display.textContent;
 // } 
 
+function operate(x, y, operator) {
+  if (operator === "+") {
+    return add(x, y);
+  } else if (operator === "-") {
+    return subtract(x, y);
+  } else if (operator === "*") {
+    return multiply(x, y);
+  } else {
+    return divide(x, y);
+  }
+}
+
 let firstNum = "";
 let secondNum = "";
 let operator = "";
