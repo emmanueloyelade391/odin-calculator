@@ -1,17 +1,37 @@
 function add(x, y) {
-  return Math.round(x + y);
+  const result = x + y;
+
+  if (result % 1 === 0) {
+    return result;
+  }
+  return result.toFixed(5);
 }
 
 function subtract(x, y) {
-  return Math.round(x - y);
+  const result = x - y;
+
+  if (result % 1 === 0) {
+    return result;
+  }
+  return result.toFixed(5);
 }
 
 function multiply(x, y) {
-  return Math.round(x * y);
+  const result = x * y;
+
+  if (result % 1 === 0) {
+    return result;
+  }
+  return result.toFixed(5);
 }
 
 function divide(x, y) {
-  return Math.round(x / y);
+  const result = x / y;
+
+  if (result % 1 === 0) {
+    return result;
+  }
+  return result.toFixed(5);
 }
 
 // function operate(x, y, operator) {
