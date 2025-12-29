@@ -14,45 +14,45 @@ function divide(x, y) {
   return Math.round(x / y);
 }
 
-function operate(x, y, operator) {
-  const first = x;
-  const second = y;
-  const operation = operator;
-  if (operator === "+") {
-    return add(x, y);
-  }
-  if (operator === "-") {
-    return subtract(x, y);
-  }
-  if (operator === "*") {
-    return multiply(x, y);
-  }
-  if (operator === "/") {
-    return divide(x, y);
-  }
-}
+// function operate(x, y, operator) {
+//   const first = x;
+//   const second = y;
+//   const operation = operator;
+//   if (operator === "+") {
+//     return add(x, y);
+//   }
+//   if (operator === "-") {
+//     return subtract(x, y);
+//   }
+//   if (operator === "*") {
+//     return multiply(x, y);
+//   }
+//   if (operator === "/") {
+//     return divide(x, y);
+//   }
+// }
 
-function operatebtn() {
-  let x = "";
-    let y = "";
-    let operator = "";
+// function operatebtn() {
+//   let x = "";
+//     let y = "";
+//     let operator = "";
 
-    //Operate part
-    let displayLength = displayString.length;
-    for (let i = 0; i < displayLength; i++) {
-      if (displayString[i] === "+" || 
-          displayString[i] === "-" || 
-          displayString[i] === "*" || 
-          displayString[i] === "/") {
-            operator = displayString[i];
-            y = displayString.slice(i + 1);
-            break
-      }
-      x += displayString[i];
-    }
-    display.textContent = operate((+x), (+y), operator);
-    displayString = display.textContent;
-} 
+//     //Operate part
+//     let displayLength = displayString.length;
+//     for (let i = 0; i < displayLength; i++) {
+//       if (displayString[i] === "+" || 
+//           displayString[i] === "-" || 
+//           displayString[i] === "*" || 
+//           displayString[i] === "/") {
+//             operator = displayString[i];
+//             y = displayString.slice(i + 1);
+//             break
+//       }
+//       x += displayString[i];
+//     }
+//     display.textContent = operate((+x), (+y), operator);
+//     displayString = display.textContent;
+// } 
 
 let firstNum = "";
 let secondNum = "";
@@ -134,86 +134,107 @@ function calcButtons() {
     console.log(displayString);
   });
 
-  const addBtn = document.querySelector("#add-btn");
-  addBtn.addEventListener("click", (event) => {
-    if (displayString.includes("+")||
-        displayString.includes("-")||
-        displayString.includes("*")||
-        displayString.includes("/")) {
-      display.textContent = display.textContent + "";
-    } else {
-      display.textContent = display.textContent + "+";
-      displayString = display.textContent;
-      console.log(displayString);
-    }
-  });
+  // const addBtn = document.querySelector("#add-btn");
+  // addBtn.addEventListener("click", (event) => {
+  //   if (displayString.includes("+")||
+  //       displayString.includes("-")||
+  //       displayString.includes("*")||
+  //       displayString.includes("/")) {
+  //     display.textContent = display.textContent + "";
+  //     displayString = display.textContent;
+  //     console.log(displayString);
+  //    }
+    
+  //   for (let i = 0; i < displayString.length; i++) {
+  //     if (displayString[i] === "+" ||
+  //         displayString[i] === "-" ||
+  //         displayString[i] === "*" ||
+  //         displayString[i] === "-" 
+  //     ) {
+  //       secondNum = display.textContent.slice(i + 1);
+  //       console.log(displayString);
+  //       break
+  //     }
+  //   }
 
-  const subtractBtn = document.querySelector("#subtract-btn");
-  subtractBtn.addEventListener("click", (event) => {
-    if (displayString.includes("+")||
-        displayString.includes("-")||
-        displayString.includes("*")||
-        displayString.includes("/")) {
-      display.textContent = display.textContent + "";
-    } else {
-      display.textContent = display.textContent + "-";
-      displayString = display.textContent;
-      console.log(displayString);
-    }
-  });
+  //   if (secondNum.length > 0) {
+  //     operatebtn();
+  //     display.textContent += "+";
+  //     displayString = display.textContent;
+  //     console.log("Current dipslay" + displayString);
+  //   } else {
+  //     display.textContent += "+";
+  //     displayString = display.textContent;
+  //     console.log("Current second number" + secondNum.length);
+  //   }
+  // });
 
-  const multiplyBtn = document.querySelector("#multiply-btn");
-  multiplyBtn.addEventListener("click", (event) => {
-    if (displayString.includes("+")||
-        displayString.includes("-")||
-        displayString.includes("*")||
-        displayString.includes("/")) {
-      display.textContent = display.textContent + "";
-    } else {
-      display.textContent = display.textContent + "*";
-      displayString = display.textContent;
-      console.log(displayString);
-    }
-  });
+  // const subtractBtn = document.querySelector("#subtract-btn");
+  // subtractBtn.addEventListener("click", (event) => {
+  //   if (displayString.includes("+")||
+  //       displayString.includes("-")||
+  //       displayString.includes("*")||
+  //       displayString.includes("/")) {
+  //     display.textContent = display.textContent + "";
+  //   } else {
+  //     display.textContent = display.textContent + "-";
+  //     displayString = display.textContent;
+  //     console.log(displayString);
+  //   }
+  // });
 
-  const divideBtn = document.querySelector("#divide-btn");
-  divideBtn.addEventListener("click", (event) => {
-    if (displayString.includes("+")||
-        displayString.includes("-")||
-        displayString.includes("*")||
-        displayString.includes("/")) {
-      display.textContent = display.textContent + "";
-    } else {
-      display.textContent = display.textContent + "/";
-      displayString = display.textContent;
-      console.log(displayString);
-    }
-  });
+  // const multiplyBtn = document.querySelector("#multiply-btn");
+  // multiplyBtn.addEventListener("click", (event) => {
+  //   if (displayString.includes("+")||
+  //       displayString.includes("-")||
+  //       displayString.includes("*")||
+  //       displayString.includes("/")) {
+  //     display.textContent = display.textContent + "";
+  //   } else {
+  //     display.textContent = display.textContent + "*";
+  //     displayString = display.textContent;
+  //     console.log(displayString);
+  //   }
+  // });
 
-  const equalBtn = document.querySelector("#equal-btn");
-  equalBtn.addEventListener("click", (event) => {
-    // let x = "";
-    // let y = "";
-    // let operator = "";
+  // const divideBtn = document.querySelector("#divide-btn");
+  // divideBtn.addEventListener("click", (event) => {
+  //   if (displayString.includes("+")||
+  //       displayString.includes("-")||
+  //       displayString.includes("*")||
+  //       displayString.includes("/")) {
+  //     display.textContent = display.textContent + "";
+  //   } else {
+  //     display.textContent = display.textContent + "/";
+  //     displayString = display.textContent;
+  //     console.log(displayString);
+  //   }
+  // });
 
-    // //Operate part
-    // let displayLength = displayString.length;
-    // for (let i = 0; i < displayLength; i++) {
-    //   if (displayString[i] === "+" || 
-    //       displayString[i] === "-" || 
-    //       displayString[i] === "*" || 
-    //       displayString[i] === "/") {
-    //         operator = displayString[i];
-    //         y = displayString.slice(i + 1);
-    //         break
-    //   }
-    //   x += displayString[i];
-    // }
-    // display.textContent = operate((+x), (+y), operator);
-    // console.log(display.textContent = operate((+x), (+y), operator));
+  // const equalBtn = document.querySelector("#equal-btn");
+  // equalBtn.addEventListener("click", (event) => {
+  //   // let x = "";
+  //   // let y = "";
+  //   // let operator = "";
 
-    operatebtn();
-  });
+  //   // //Operate part
+  //   // let displayLength = displayString.length;
+  //   // for (let i = 0; i < displayLength; i++) {
+  //   //   if (displayString[i] === "+" || 
+  //   //       displayString[i] === "-" || 
+  //   //       displayString[i] === "*" || 
+  //   //       displayString[i] === "/") {
+  //   //         operator = displayString[i];
+  //   //         y = displayString.slice(i + 1);
+  //   //         break
+  //   //   }
+  //   //   x += displayString[i];
+  //   // }
+  //   // display.textContent = operate((+x), (+y), operator);
+  //   // console.log(display.textContent = operate((+x), (+y), operator));
+
+  //   operatebtn();
+  // });
 
   
 
