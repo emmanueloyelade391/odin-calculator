@@ -68,6 +68,7 @@ function operate(x, y, operator) {
 
 let firstNum = "";
 let secondNum = "";
+let resultNum = "";
 let operator = "";
 
 const display = document.querySelector("#display");
