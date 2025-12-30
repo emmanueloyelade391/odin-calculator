@@ -66,3 +66,7 @@
 .operation-btn:hover {
   background-color: rgba(255, 166, 0, 0.73);
 }
+
+.clicked-btn {
+  background-color: rgba(255, 166, 0, 0.73);
+}

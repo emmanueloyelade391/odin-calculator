@@ -350,12 +350,20 @@ function calcButtons() {
       display.textContent = firstNum;
       secondNum = "";
       operator = "+";
+      addBtn.classList.add("clicked-btn");
+      subtractBtn.classList.remove("clicked-btn");
+      multiplyBtn.classList.remove("clicked-btn");
+      divideBtn.classList.remove("clicked-btn");
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
       console.log("resultNum: " + resultNum);
     } else {
       operator = "+";
+      addBtn.classList.add("clicked-btn");
+      subtractBtn.classList.remove("clicked-btn");
+      multiplyBtn.classList.remove("clicked-btn");
+      divideBtn.classList.remove("clicked-btn");
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
@@ -378,12 +386,20 @@ function calcButtons() {
       display.textContent = firstNum;
       secondNum = "";
       operator = "-";
+      addBtn.classList.remove("clicked-btn");
+      subtractBtn.classList.add("clicked-btn");
+      multiplyBtn.classList.remove("clicked-btn");
+      divideBtn.classList.remove("clicked-btn");
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
       console.log("resultNum: " + resultNum);
     } else {
       operator = "-";
+      addBtn.classList.remove("clicked-btn");
+      subtractBtn.classList.add("clicked-btn");
+      multiplyBtn.classList.remove("clicked-btn");
+      divideBtn.classList.remove("clicked-btn");
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
@@ -406,12 +422,20 @@ function calcButtons() {
       display.textContent = firstNum;
       secondNum = "";
       operator = "*";
+      addBtn.classList.remove("clicked-btn");
+      subtractBtn.classList.remove("clicked-btn");
+      multiplyBtn.classList.add("clicked-btn");
+      divideBtn.classList.remove("clicked-btn");
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
       console.log("resultNum: " + resultNum);
     } else {
       operator = "*";
+      addBtn.classList.remove("clicked-btn");
+      subtractBtn.classList.remove("clicked-btn");
+      multiplyBtn.classList.add("clicked-btn");
+      divideBtn.classList.remove("clicked-btn");
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
@@ -446,12 +470,20 @@ function calcButtons() {
       display.textContent = firstNum;
       secondNum = "";
       operator = "/";
+      addBtn.classList.remove("clicked-btn");
+      subtractBtn.classList.remove("clicked-btn");
+      multiplyBtn.classList.remove("clicked-btn");
+      divideBtn.classList.add("clicked-btn");
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
       console.log("resultNum: " + resultNum);
     } else {
       operator = "/";
+      addBtn.classList.remove("clicked-btn");
+      subtractBtn.classList.remove("clicked-btn");
+      multiplyBtn.classList.remove("clicked-btn");
+      divideBtn.classList.add("clicked-btn");
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
@@ -463,6 +495,10 @@ function calcButtons() {
   equalBtn.addEventListener("click", (event) => {
     if (operator.length > 0 && (firstNum.length === 0 && secondNum.length === 0)) {
       operator = "";
+      addBtn.classList.remove("clicked-btn");
+      subtractBtn.classList.remove("clicked-btn");
+      multiplyBtn.classList.remove("clicked-btn");
+      divideBtn.classList.remove("clicked-btn");
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
       console.log("operator: " + operator);
@@ -487,6 +523,10 @@ function calcButtons() {
         secondNum = "";
         resultNum = "";
         operator = "";
+        addBtn.classList.remove("clicked-btn");
+        subtractBtn.classList.remove("clicked-btn");
+        multiplyBtn.classList.remove("clicked-btn");
+        divideBtn.classList.remove("clicked-btn");
         console.log("firstNum: " + firstNum);
         console.log("secondNum: " + secondNum);
         console.log("operator: " + operator);
@@ -500,6 +540,10 @@ function calcButtons() {
     firstNum = "";
     secondNum = "";
     operator = "";
+    addBtn.classList.remove("clicked-btn");
+    subtractBtn.classList.remove("clicked-btn");
+    multiplyBtn.classList.remove("clicked-btn");
+    divideBtn.classList.remove("clicked-btn");
     console.log("firstNum: " + firstNum);
     console.log("secondNum: " + secondNum);
     console.log("operator: " + operator);
