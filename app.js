@@ -104,6 +104,8 @@ function calcButtons() {
     if (operator.length === 0) {
       resultNum = "";
       firstNum += "1";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -111,6 +113,8 @@ function calcButtons() {
       console.log("resultNum: " + resultNum);
     } else {
       secondNum += "1";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum); 
@@ -128,6 +132,8 @@ function calcButtons() {
     if (operator.length === 0) {
       resultNum = "";
       firstNum += "2";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -135,6 +141,8 @@ function calcButtons() {
       console.log("resultNum: " + resultNum);
     } else {
       secondNum += "2";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -152,6 +160,8 @@ function calcButtons() {
     if (operator.length === 0) {
       resultNum = "";
       firstNum += "3";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -159,6 +169,8 @@ function calcButtons() {
       console.log("resultNum: " + resultNum);
     } else {
       secondNum += "3";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -176,6 +188,8 @@ function calcButtons() {
     if (operator.length === 0) {
       resultNum = "";
       firstNum += "4";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -183,6 +197,8 @@ function calcButtons() {
       console.log("resultNum: " + resultNum);
     } else {
       secondNum += "4";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -200,6 +216,8 @@ function calcButtons() {
     if (operator.length === 0) {
       resultNum = "";
       firstNum += "5";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -207,6 +225,8 @@ function calcButtons() {
       console.log("resultNum: " + resultNum);
     } else {
       secondNum += "5";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -224,6 +244,8 @@ function calcButtons() {
     if (operator.length === 0) {
       resultNum = "";
       firstNum += "6";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -231,6 +253,8 @@ function calcButtons() {
       console.log("resultNum: " + resultNum);
     } else {
       secondNum += "6";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -248,6 +272,8 @@ function calcButtons() {
     if (operator.length === 0) {
       resultNum = "";
       firstNum += "7";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -255,6 +281,8 @@ function calcButtons() {
       console.log("resultNum: " + resultNum);
     } else {
       secondNum += "7";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -272,6 +300,8 @@ function calcButtons() {
     if (operator.length === 0) {
       resultNum = "";
       firstNum += "8";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -279,6 +309,8 @@ function calcButtons() {
       console.log("resultNum: " + resultNum);
     } else {
       secondNum += "8";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -296,6 +328,8 @@ function calcButtons() {
     if (operator.length === 0) {
       resultNum = "";
       firstNum += "9";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -303,6 +337,8 @@ function calcButtons() {
       console.log("resultNum: " + resultNum);
     } else {
       secondNum += "9";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -320,6 +356,8 @@ function calcButtons() {
     if (operator.length === 0) {
       resultNum = "";
       firstNum += "0";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = firstNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -327,6 +365,8 @@ function calcButtons() {
       console.log("resultNum: " + resultNum);
     } else {
       secondNum += "0";
+      display.style.textAlign = "right";
+      display.style.fontSize = "30px";
       display.textContent = secondNum;
       console.log("firstNum: " + firstNum);
       console.log("secondNum: " + secondNum);
@@ -464,20 +504,20 @@ function calcButtons() {
         console.log("operator: " + operator);
         console.log("resultNum: " + resultNum);
         return display.textContent = "Error. You can't divide by 0.";
+      } else {
+        firstNum = operate((+firstNum), (+secondNum), operator);
+        display.textContent = firstNum;
+        secondNum = "";
+        operator = "/";
+        addBtn.classList.remove("clicked-btn");
+        subtractBtn.classList.remove("clicked-btn");
+        multiplyBtn.classList.remove("clicked-btn");
+        divideBtn.classList.add("clicked-btn");
+        console.log("firstNum: " + firstNum);
+        console.log("secondNum: " + secondNum);
+        console.log("operator: " + operator);
+        console.log("resultNum: " + resultNum);
       }
-
-      firstNum = operate((+firstNum), (+secondNum), operator);
-      display.textContent = firstNum;
-      secondNum = "";
-      operator = "/";
-      addBtn.classList.remove("clicked-btn");
-      subtractBtn.classList.remove("clicked-btn");
-      multiplyBtn.classList.remove("clicked-btn");
-      divideBtn.classList.add("clicked-btn");
-      console.log("firstNum: " + firstNum);
-      console.log("secondNum: " + secondNum);
-      console.log("operator: " + operator);
-      console.log("resultNum: " + resultNum);
     } else {
       operator = "/";
       addBtn.classList.remove("clicked-btn");
@@ -531,6 +571,8 @@ function calcButtons() {
         console.log("secondNum: " + secondNum);
         console.log("operator: " + operator);
         console.log("resultNum: " + resultNum);
+        display.style.textAlign = "center";
+        display.style.fontSize = "22px";
         return display.textContent = "Error. You can't divide by 0.";
       }
 
@@ -665,6 +707,10 @@ function calcButtons() {
     secondNum = "";
     resultNum = "";
     operator = "";
+    addBtn.classList.remove("clicked-btn");
+    subtractBtn.classList.remove("clicked-btn");
+    multiplyBtn.classList.remove("clicked-btn");
+    divideBtn.classList.remove("clicked-btn");
     console.log("firstNum: " + firstNum);
     console.log("secondNum: " + secondNum);
     console.log("operator: " + operator);
