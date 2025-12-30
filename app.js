@@ -616,7 +616,7 @@ function calcButtons() {
     // displayString = display.textContent;
     // console.log(displayString);
 
-    display.textContent = "";
+    display.textContent = "0";
     firstNum = "";
     secondNum = "";
     resultNum = "";
