@@ -461,6 +461,15 @@ function calcButtons() {
 
   const equalBtn = document.querySelector("#equal-btn");
   equalBtn.addEventListener("click", (event) => {
+    if (operator.length > 0 && (firstNum.length === 0 && secondNum.length === 0)) {
+      operator = "";
+      console.log("firstNum: " + firstNum);
+      console.log("secondNum: " + secondNum);
+      console.log("operator: " + operator);
+      console.log("resultNum: " + resultNum);
+      return display.textContent = "0";
+    }
+
     if (firstNum.length === 0 && (operator.length === 0 || secondNum.length === 0)) {
       if (resultNum.length > 0) {
         firstNum += resultNum;
