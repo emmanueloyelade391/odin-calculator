@@ -430,6 +430,18 @@ function calcButtons() {
     }
 
     if (secondNum.length > 0) {
+      if (secondNum === "0") {
+        firstNum = "";
+        secondNum = "";
+        resultNum = "";
+        operator = "";
+        console.log("firstNum: " + firstNum);
+        console.log("secondNum: " + secondNum);
+        console.log("operator: " + operator);
+        console.log("resultNum: " + resultNum);
+        return display.textContent = "Error. You can't divide by 0.";
+      }
+
       firstNum = operate((+firstNum), (+secondNum), operator);
       display.textContent = firstNum;
       secondNum = "";
@@ -460,6 +472,18 @@ function calcButtons() {
     if (firstNum.length > 0 && (operator.length === 0 || secondNum.length === 0)) {
       return display.textContent = firstNum;
     }
+
+    if (secondNum === "0") {
+        firstNum = "";
+        secondNum = "";
+        resultNum = "";
+        operator = "";
+        console.log("firstNum: " + firstNum);
+        console.log("secondNum: " + secondNum);
+        console.log("operator: " + operator);
+        console.log("resultNum: " + resultNum);
+        return display.textContent = "Error. You can't divide by 0.";
+      }
 
     resultNum = "";
     resultNum += operate((+firstNum), (+secondNum), operator);
