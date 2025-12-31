@@ -6,7 +6,6 @@
 }
 
 #calculator {
-  /* background-color: red; */
   width: 350px;
   height: 440px; 
   text-align: center;
@@ -18,7 +17,6 @@
 }
 
 #display-container {
-  /* background-color: blue; */
   width: 300px;
   height: 50px;
   margin: 0 auto; 
@@ -45,7 +43,6 @@
   width: 70px;
   height: 70px; 
   border-radius: 35px;
-  /* border: 2px solid black;  */
   border: none;
   font-size: 20px;
   font-weight: bold;
