@@ -383,24 +383,6 @@ function calcButtons() {
       firstNum = resultNum;
     }
 
-    // if (operator === "/" && secondNum === "0") {
-    //   firstNum = "";
-    //   secondNum = "";
-    //   resultNum = "";
-    //   operator = "";
-    //   addBtn.classList.remove("clicked-btn");
-    //   subtractBtn.classList.remove("clicked-btn");
-    //   multiplyBtn.classList.remove("clicked-btn");
-    //   divideBtn.classList.remove("clicked-btn");
-    //   console.log("firstNum: " + firstNum);
-    //   console.log("secondNum: " + secondNum);
-    //   console.log("operator: " + operator);
-    //   console.log("resultNum: " + resultNum);
-    //   display.style.textAlign = "center";
-    //   display.style.fontSize = "22px";
-    //   return display.textContent = "Error. You can't divide by 0.";
-    //   } 
-
     if (secondNum.length > 0) {
       if (operator === "/" && secondNum === "0") {
         firstNum = "";
