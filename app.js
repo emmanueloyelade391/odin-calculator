@@ -421,6 +421,9 @@ function calcButtons() {
   //1st number, 2nd number, and operator are emptied to avoid any bugs or errors. 
   const equalBtn = document.querySelector("#equal-btn");
   equalBtn.addEventListener("click", (event) => {
+    display.style.textAlign = "right";
+    display.style.fontSize = "30px";
+
     if (operator.length > 0 && (firstNum.length === 0 && secondNum.length === 0)) {
       operator = "";
       addBtn.classList.remove("clicked-btn");
@@ -472,6 +475,8 @@ function calcButtons() {
   //inputs. It lets the user start over again.
   const clearBtn = document.querySelector("#clear-btn");
   clearBtn.addEventListener("click", (event) => {
+    display.style.textAlign = "right";
+    display.style.fontSize = "30px";
     display.textContent = "0";
     firstNum = "";
     secondNum = "";
